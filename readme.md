@@ -14,7 +14,7 @@ npm install --save puppeteer-instagram
 
 ## Usage
 
-This example signs into a [Instagram](https://instagram.com) account.
+This example signs into an [Instagram](https://instagram.com) account.
 
 ```js
 const PuppeteerInstagram = require('puppeteer-instagram')
