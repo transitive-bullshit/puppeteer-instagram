@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-instagram",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Instagram automation driven by headless chrome.",
   "main": "index.js",
   "repository": "transitive-bullshit/puppeteer-instagram",
