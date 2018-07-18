@@ -102,11 +102,11 @@ class PuppeteerInstagram {
   /**
    * Signs into an existing Instagram account.
    *
+   * Note: either username or email is required.
+   *
    * @param {Object} user - User details for new account
-   * @param {string} user.username - Username
-   * @param {string} user.email - Email
-   * @param {string} user.firstName - First name
-   * @param {string} user.lastName - Last name
+   * @param {string} [user.username] - Username
+   * @param {string} [user.email] - Email
    * @param {string} user.password - Password
    * @param {Object} [opts={ }] - Options
    * @return {Promise}
