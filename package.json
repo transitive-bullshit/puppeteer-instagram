@@ -1,0 +1,39 @@
+{
+  "name": "puppeteer-instagram",
+  "version": "0.0.5",
+  "description": "Instagram automation driven by headless chrome.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/puppeteer-instagram",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "reveal": true,
+  "scripts": {
+    "docs": "update-markdown-jsdoc",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "puppeteer",
+    "instagram"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "parse-email": "^1.0.0",
+    "standard": "^11.0.0",
+    "update-markdown-jsdoc": "^1.0.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "delay": "^3.0.0",
+    "faker": "^4.1.0",
+    "ow": "^0.6.0",
+    "p-retry": "^2.0.0",
+    "puppeteer": "^1.6.0",
+    "puppeteer-email": "^0.1.0",
+    "puppeteer-extra": "^2.0.7",
+    "puppeteer-extra-plugin-stealth": "^2.0.7",
+    "random": "^2.0.12"
+  }
+}
