@@ -8,6 +8,7 @@ const signup = require('./lib/signup')
 const signin = require('./lib/signin')
 const signout = require('./lib/signout')
 const verifyEmail = require('./lib/verify-email')
+const getMediaFeed = require('./lib/get-media-feed')
 
 puppeteer.use(require('puppeteer-extra-plugin-stealth')())
 
@@ -130,7 +131,7 @@ class PuppeteerInstagram {
   }
 
   /**
-   * Signs out of the currently authenticated Instagram account.
+   * Signs out of the currently authenticated Instagram account
    * @return {Promise}
    */
   async signout () {
@@ -158,6 +159,13 @@ class PuppeteerInstagram {
       email: opts.email || this.user.email,
       password: opts.emailPassword
     }, opts)
+  }
+
+  async getMediaFeed () {
+    if (!this.isAuthenticated) throw new Error('"signout" requires authentication')
+    const browser = await this.browser()
+
+    return getMediaFeed(browser)
   }
 
   /**

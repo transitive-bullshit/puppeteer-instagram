@@ -146,6 +146,15 @@ Type: `function (): Promise`
 -   [puppeteer](https://github.com/GoogleChrome/puppeteer) - Headless Chrome Node API.
 -   [awesome-puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer) - Curated list of awesome puppeteer resources.
 
+## Somewhat Related
+
+- [private api](https://github.com/mgp25/Instagram-API) - Instagram's private API (php)
+- [instabot.py](https://github.com/instabot-py/instabot.py) - Popular Instagram bot (python)
+- [instagram-node](https://github.com/totemstech/instagram-node) - Deprecated node SDK (javascript)
+- [node-instagram](https://github.com/pradel/node-instagram) - More recent node SDK (javascript)
+
 ## License
 
 MIT © [Travis Fischer](https://github.com/transitive-bullshit)
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
